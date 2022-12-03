@@ -274,8 +274,6 @@ th
     -webkit-user-select: none;
 
     outline: none;
-
-    -webkit-tap-highlight-color: transparent;
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -2835,15 +2833,12 @@ select
 {
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 17px;
-
-    -webkit-tap-highlight-color: transparent;
     -webkit-tap-highlight-color: transparent;
 }
 input:focus,
 textarea:focus,
 select:focus
 {
-    -webkit-tap-highlight-color: transparent;
     -webkit-tap-highlight-color: transparent;
     -webkit-user-modify: read-write-plaintext-only;
 }
@@ -3849,13 +3844,13 @@ select:focus
 }
 .mui-popover.mui-bar-popover .mui-table-view .mui-table-view-cell
 {
-    padding: 11px 15px 11px 15px;
+    padding: 11px 15px;
 
     background-position: 0 100%;
 }
 .mui-popover.mui-bar-popover .mui-table-view .mui-table-view-cell > a:not(.mui-btn)
 {
-    margin: -11px -15px -11px -15px;
+    margin: -11px -15px;
 }
 
 .mui-popup-backdrop
@@ -4041,7 +4036,7 @@ select:focus
 }
 .mui-popup-button:last-child
 {
-    border-radius: 0 0 13px 0;
+    border-radius: 0 0 13px;
 }
 .mui-popup-button:last-child:after
 {
@@ -4936,7 +4931,7 @@ body > .mui-progressbar
 
     width: 120px;
     height: 35px;
-    padding: 0 40px 0 40px;
+    padding: 0 40px;
 
     vertical-align: top;
     vertical-align: middle;
